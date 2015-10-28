@@ -90,6 +90,32 @@ If you have a ton of errors, I suggest deleting everything like such
 python annotater.py 1000XXX del 1 5000
 ```
 
+##Suggested workflow
+
+It's my workflow at least.
+
+Using Sublime Text, choose JSON as your syntax.
+
+```
+18957 Dear I go toilet first
+18958 Meet u outside coop later
+18959 Ok. After your exams?
+```
+
+When you're ready to send, change your syntax to Python and use the comment command (cmd + /)
+
+```
+# 18957 {Dear} {I} go {toilet} first
+18958 Meet u outside coop later
+18959 Ok. After your exams?
+```
+
+Uncomment using the same function and change back to JSON. Comment out the line you sent in JSON.
+```
+// 18957 {Dear} {I} go {toilet} first
+18958 Meet u outside coop later
+18959 Ok. After your exams?
+```
 
 ## Annotations
 
