@@ -55,8 +55,8 @@ Assuming your working directory is the same location as all the files, run
 ```
 python annotater.py <username> send <masterpath> <annotationpath>
 ```
-*masterpath* - the path to your master file, it is assumed to be master.txt if left blank
-*annotationpath* - the path to your annotated file, it is assumed to be annotations.txt if left blank
+**masterpath**  the path to your master file, it is assumed to be master.txt if left blank
+**annotationpath**  the path to your annotated file, it is assumed to be annotations.txt if left blank
 
 Don't try to use only one filename, it will cock up and die.
 
