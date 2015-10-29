@@ -101,7 +101,7 @@ if __name__ == "__main__":
 
 	if command == "del":
 		try:
-			for i in range(int(sys.argv[3]), int(sys.argv[4])):
+			for i in range(int(sys.argv[3]), int(sys.argv[4]) + 1):
 				removeAnnotations([[100,101]], "T{0}".format(str(i)))
 		except:			
 			removeAnnotations([[100,101]], "T{0}".format(str(sys.argv[3])))
